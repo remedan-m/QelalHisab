@@ -26,7 +26,7 @@ htmlcov/
 coverage.xml
 
 # SQLite database (ignore the database file)
-qelalhisab.db
+*.db
 
 # Node.js (React Frontend)
 # Node.js dependencies
