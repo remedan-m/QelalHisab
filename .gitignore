@@ -7,7 +7,7 @@ Thumbs.db
 
 # Python (FastAPI Backend)
 # Virtual environment
-venv/
+env/
 .env
 *.env
 
