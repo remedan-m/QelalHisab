@@ -1,3 +1,11 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python (FastAPI Backend)
 # Virtual environment
 venv/
 .env
@@ -17,7 +25,10 @@ __pycache__/
 htmlcov/
 coverage.xml
 
+# SQLite database (ignore the database file)
+qelalhisab.db
 
+# Node.js (React Frontend)
 # Node.js dependencies
 node_modules/
 
