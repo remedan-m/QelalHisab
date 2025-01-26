@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.env
+*.env
+
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+
+# Packages and dependencies
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# Pytest and coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.cache
+
+# Environment variables
+.env
