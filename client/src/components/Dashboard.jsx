@@ -8,7 +8,7 @@ export default function Dashboard() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:8000/summary/monthly/");
+        const response = await fetch("https://qelalhisab.onrender.com//summary/monthly/");
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
